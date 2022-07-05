@@ -1,1 +1,13 @@
+name: RPT Action
 
+on:
+    workflow_dispatch:
+
+jobs:
+
+    WebUI-Action:
+        runs-on: self-hosted
+        name: Execute RPT Test
+        steps:
+         - name: RPT Action
+           uses: SonaHJ/RPTAction@RPT_Release
