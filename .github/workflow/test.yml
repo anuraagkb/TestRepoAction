@@ -13,6 +13,6 @@ jobs:
           with:
             productpath: C:\Program Files\HCL\HCLOneTest
             imshared: C:\Program Files\HCL\HCLIMShared\plugins
-            workspace: D:\workspace_pt
-            project: Test
-            suite: Test
+            workspace: D:\HCL\hclonetest\workspace
+            project: PT1
+            suite: Test1
